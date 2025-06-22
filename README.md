@@ -101,9 +101,6 @@ Automate-The-Planet-Automation/
 │   ├── career_page.py
 │   └── resources_page.py
 │
-├── utils/                            # ⚙️ Utility scripts and configs
-│   ├── browser_setup.py              # Setup/teardown for browser sessions
-│   └── config.py                     # Constants, base URLs, timeouts, etc.
 │
 ├── Test_cases.md                     # 🧪 Manual test case documentation
 ├── requirements.txt                  # 📦 Python dependencies
