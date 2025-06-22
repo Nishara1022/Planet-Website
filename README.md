@@ -82,27 +82,34 @@ Automate-The-Planet-Automation/
 ├── tests/                            # ✅ Test scripts (named *_test.py)
 │   ├── home_test.py
 │   ├── contact_us_test.py
-│   ├── create_meeting_test.py
+│   ├── book_meeting_test.py
+│   ├── meeting_section_test.py
 │   ├── signup_test.py
 │   ├── demo_test.py
 │   ├── web_automation_test.py
 │   ├── career_test.py
 │   └── resources_test.py
 │
-├── pages/
-│ ├── home_page.py
-│ ├── create_meeting_page.py
-│ ├── contact_us_page.py
-│ ├── signup_page.py
-│ ├── demo_page.py
-│ ├── web_automation_page.py
-│ ├── career_page.py
-│ └── resources_page.py
+├── pages/                            # 📄 Page Object classes (one per page)
+│   ├── home_page.py
+│   ├── contact_us_page.py
+│   ├── book_meeting_page.py
+│   ├── meeting_section_page.py
+│   ├── signup_page.py
+│   ├── demo_page.py
+│   ├── web_automation_page.py
+│   ├── career_page.py
+│   └── resources_page.py
 │
+├── utils/                            # ⚙️ Utility scripts and configs
+│   ├── browser_setup.py              # Setup/teardown for browser sessions
+│   └── config.py                     # Constants, base URLs, timeouts, etc.
 │
-├── Test_cases.md # ✔️ Manual test scenarios
-├── requirements.txt # Python dependencies
-├── README.md # 📄 Project documentation
-└── .gitignore # System and virtual env files
+├── Test_cases.md                     # 🧪 Manual test case documentation
+├── requirements.txt                  # 📦 Python dependencies
+├── conftest.py                       # Pytest fixtures (e.g., browser setup)
+├── README.md                         # 📘 Project overview and instructions
+└── .gitignore                        # 🚫 Files to exclude from Git
+
 
 </pre>
