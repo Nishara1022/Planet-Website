@@ -17,7 +17,8 @@ class Career():
     TERMS = (By.XPATH, "//input[@id='terms']")
     APPLY = (By.XPATH, "//input[@value='Apply']")
 
-    
+
+    print("---- Career page ----") 
     # accept cookies
     def cookies(self):
         cookies = self.driver.find_element(*Career.COOKIES)
