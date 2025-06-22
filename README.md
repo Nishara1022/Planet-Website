@@ -15,12 +15,12 @@ This repository contains **automated UI and functional test scripts** developed 
 
 I created **modular, reusable test scripts for each page and section of the website**. Each script covers:
 
-- ✅ Functional testing of form elements, buttons, and inputs  
-- ✅ UI element validations and navigations  
-- ✅ Dynamic content and user interactions  
-- ✅ Positive and negative test flows  
-- ✅ Page redirection and link testing  
-- ✅ Full coverage of responsive elements and edit features  
+-  Functional testing of form elements, buttons, and inputs  
+-  UI element validations and navigations  
+-  Dynamic content and user interactions  
+-  Positive and negative test flows  
+-  Page redirection and link testing  
+-  Full coverage of responsive elements and edit features  
 
 Test cases follow **Page Object Model (POM)** architecture for clean structure, reusability, and easy maintenance.
 
@@ -74,8 +74,9 @@ This file includes:
 |  GitHub             | Version control and project hosting     |
 
 ---
-<pre>
+
 ## 📁 Project Structure
+<pre>
 
 Automate-The-Planet-Automation/
 │
@@ -110,6 +111,5 @@ Automate-The-Planet-Automation/
 ├── conftest.py                       # Pytest fixtures (e.g., browser setup)
 ├── README.md                         #  Project overview and instructions
 └── .gitignore                        #  Files to exclude from Git
-
 
 </pre>
