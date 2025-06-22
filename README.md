@@ -1,4 +1,4 @@
-<pre>
+
 ## 🔧 Selenium Test Automation for "Automate The Planet Website ##
 
 # 🌐 Project Overview
@@ -74,7 +74,7 @@ This file includes:
 |  GitHub             | Version control and project hosting     |
 
 ---
-
+<pre>
 ## 📁 Project Structure
 
 Automate-The-Planet-Automation/
