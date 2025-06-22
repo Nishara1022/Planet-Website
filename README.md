@@ -30,16 +30,16 @@ Test cases follow **Page Object Model (POM)** architecture for clean structure, 
 
 Scripts were created **page-by-page** and fully test the following:
 
-- 🏠 **Home Page**  
-- 🔁 **Meeting Section – Edit Date/Time**  
-- 📩 **Contact Us Form**  
-- 📝 **Sign-Up Page**  
-- 🧪 **Demo Booking Page**  
-- 🌍 **Web Automation Services Page**  
-- 🎯 **Career Page**  
-- 📚 **Resources Section and Articles**  
-- 📖 **Read Full Article / Read Full Story Buttons**  
-- 📥 **Footer Elements and External Links**
+-  **Home Page**  
+-  **Create meeting page**  
+-  **Contact Us Form**  
+-  **Sign-Up Page**  
+-  **Demo Page**  
+-  **Web Automation Page**  
+-  **Career Page**  
+-  **Resources Section and Articles**  
+-  **Read Full Article / Read Full Story Buttons**  
+-  **Footer Elements and External Links**
 
 Every feature is automated individually using dedicated test scripts and page classes.
 
@@ -66,12 +66,12 @@ This file includes:
 
 | Tool/Library         | Description                             |
 |----------------------|-----------------------------------------|
-| 🐍 Python 3.x         | Main programming language               |
-| 🧪 Selenium WebDriver | For browser automation                  |
-| 🧱 POM Pattern        | For structured page-level automation    |
-| 🧪 Pytest             | For test execution                      |
-| 🌐 ChromeDriver       | For Chrome browser testing              |
-| 🧩 GitHub             | Version control and project hosting     |
+|  Python 3.x         | Main programming language               |
+|  Selenium WebDriver | For browser automation                  |
+|  POM Pattern        | For structured page-level automation    |
+|  Pytest             | For test execution                      |
+|  ChromeDriver       | For Chrome browser testing              |
+|  GitHub             | Version control and project hosting     |
 
 ---
 
@@ -82,31 +82,34 @@ Automate-The-Planet-Automation/
 ├── tests/                            # ✅ Test scripts (named *_test.py)
 │   ├── home_test.py
 │   ├── contact_us_test.py
-│   ├── book_meeting_test.py
-│   ├── meeting_section_test.py
+│   ├── create_meeting_test.py
 │   ├── signup_test.py
 │   ├── demo_test.py
 │   ├── web_automation_test.py
+│   ├── private_training_test.py
 │   ├── career_test.py
-│   └── resources_test.py
+│   ├── resources_test.py
+│   └── footer_test.py
+│  
 │
 ├── pages/                            # 📄 Page Object classes (one per page)
 │   ├── home_page.py
 │   ├── contact_us_page.py
-│   ├── book_meeting_page.py
-│   ├── meeting_section_page.py
+│   ├── create_meeting_page.py
 │   ├── signup_page.py
 │   ├── demo_page.py
 │   ├── web_automation_page.py
+│   ├── private_training_page.py
 │   ├── career_page.py
-│   └── resources_page.py
+│   ├── resources_page.py
+│   └── footer_page.py
 │
 │
-├── Test_cases.md                     # 🧪 Manual test case documentation
-├── requirements.txt                  # 📦 Python dependencies
+├── Test_cases.md                     #  Manual test case documentation
+├── requirements.txt                  #  Python dependencies
 ├── conftest.py                       # Pytest fixtures (e.g., browser setup)
-├── README.md                         # 📘 Project overview and instructions
-└── .gitignore                        # 🚫 Files to exclude from Git
+├── README.md                         #  Project overview and instructions
+└── .gitignore                        #  Files to exclude from Git
 
 
 </pre>
