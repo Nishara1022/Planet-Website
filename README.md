@@ -81,7 +81,7 @@ Automate-The-Planet-Automation/
 │
 ├── tests/
 │ ├── test_home_page.py
-│ ├── test_book_meeting.py
+│ ├── test_create_meeting_page.py
 │ ├── test_contact_us.py
 │ ├── test_signup.py
 │ ├── test_demo_page.py
@@ -91,7 +91,7 @@ Automate-The-Planet-Automation/
 │
 ├── pages/
 │ ├── home_page.py
-│ ├── book_meeting_page.py
+│ ├── create_meeting_page.py
 │ ├── contact_us_page.py
 │ ├── signup_page.py
 │ ├── demo_page.py
