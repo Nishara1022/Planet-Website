@@ -79,15 +79,15 @@ This file includes:
 
 Automate-The-Planet-Automation/
 │
-├── tests/
-│ ├── test_home_page.py
-│ ├── test_create_meeting_page.py
-│ ├── test_contact_us.py
-│ ├── test_signup.py
-│ ├── test_demo_page.py
-│ ├── test_web_automation.py
-│ ├── test_career_page.py
-│ └── test_resources_page.py
+├── tests/                            # ✅ Test scripts (named *_test.py)
+│   ├── home_test.py
+│   ├── contact_us_test.py
+│   ├── create_meeting_test.py
+│   ├── signup_test.py
+│   ├── demo_test.py
+│   ├── web_automation_test.py
+│   ├── career_test.py
+│   └── resources_test.py
 │
 ├── pages/
 │ ├── home_page.py
