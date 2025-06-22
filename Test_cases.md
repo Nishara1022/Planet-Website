@@ -2,7 +2,7 @@
 
 ---
 
-## 🚀 Page Load & Title – Test Cases
+## Page Load & Title – Test Cases
 
 | TC ID   | Description                                                       | Expected Result                                                                 |
 |---------|-------------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -23,7 +23,7 @@
 
 ---
 
-## 🧭 Header Section – Test Cases
+## Header Section – Test Cases
 
 | TC ID     | Description                                               | Expected Result                                                   |
 |-----------|-----------------------------------------------------------|-------------------------------------------------------------------|
@@ -37,7 +37,7 @@
 
 ---
 
-## 🏠 Home Page – UI & Accessibility Test Cases
+## Home Page – UI & Accessibility Test Cases
 
 | TC ID   | Description                                                  | Expected Result                                                   |
 |---------|--------------------------------------------------------------|-------------------------------------------------------------------|
@@ -63,7 +63,7 @@
 
 ---
 
-## 📩 "Contact Us" Button (Homepage) – Test Cases
+## "Contact Us" Button (Homepage) – Test Cases
 
 | TC ID   | Description                                                 | Expected Result                                                    |
 |---------|-------------------------------------------------------------|--------------------------------------------------------------------|
@@ -77,14 +77,14 @@
 
 ---
 
-## 📄 Contact Page – Basic Load & Title Test Cases
+## Contact Page – Basic Load & Title Test Cases
 
 | TC ID   | Description                                      | Expected Result                                                   |
 |---------|--------------------------------------------------|-------------------------------------------------------------------|
 | CP_01   | Verify contact page loads successfully           | Page loads with 200 status, no 404 or server error                |
 | CP_02   | Verify page title and heading are correct        | Page title contains "Contact Us", and heading is visible          |
 
-## 📩 Contact Us Form – Functional & Accessibility Test Cases
+## Contact Us Form – Functional & Accessibility Test Cases
 
 | TC ID   | Description                                                        | Expected Result                                                    |
 |---------|--------------------------------------------------------------------|--------------------------------------------------------------------|
@@ -118,7 +118,7 @@
 
 ---
 
-## 📖 "Read Full Story" Button & Article Page Test Cases
+## "Read Full Story" Button & Article Page Test Cases
 
 | TC ID     | Description                                                    | Expected Result                                                                 |
 |-----------|----------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@
 | RFSB_22   | Verify keyboard navigation through page                        | Tab/Shift+Tab work through links and buttons                                   |
 | RFSB_23   | Verify screen reader reads headings and content                | Story content and headings are read properly by screen readers                  |
 
-## 📖 "Read Full Story" Page – Additional Test Cases
+## "Read Full Story" Page – Additional Test Cases
 
 | TC ID     | Description                                                | Expected Result                                                    |
 |-----------|------------------------------------------------------------|--------------------------------------------------------------------|
@@ -158,7 +158,7 @@
 
 ---
 
-## 📘 "Read Full Article" Button – Test Cases
+## "Read Full Article" Button – Test Cases
 
 | TC ID     | Description                                                  | Expected Result                                                    |
 |-----------|--------------------------------------------------------------|--------------------------------------------------------------------|
@@ -173,7 +173,7 @@
 
 ---
 
-## 🧪 "Start the Test" Button & Yes/No Form – Test Cases
+## "Start the Test" Button & Yes/No Form – Test Cases
 
 | TC ID     | Description                                                        | Expected Result                                                    |
 |-----------|--------------------------------------------------------------------|--------------------------------------------------------------------|
@@ -207,7 +207,7 @@
 
 ---
 
-## 📅 Book a Meeting Section – Functional Test Cases
+## Book a Meeting Section – Functional Test Cases
 
 | TC ID     | Description                                                  | Expected Result                                                    |
 |-----------|--------------------------------------------------------------|--------------------------------------------------------------------|
@@ -243,7 +243,7 @@
 
 ---
 
-## 📎 Footer Section – Test Cases
+## Footer Section – Test Cases
 
 | TC ID       | Description                                                  | Expected Result                                                    |
 |-------------|--------------------------------------------------------------|--------------------------------------------------------------------|
@@ -280,7 +280,7 @@
 
 ---
 
-## 🌐 Web Automation Page – Test Cases
+## Web Automation Page – Test Cases
 
 | TC ID   | Description                                                     | Expected Result                                              |
 |---------|-----------------------------------------------------------------|--------------------------------------------------------------|
@@ -310,7 +310,7 @@
 
 ---
 
-## 📘 Automated Testing Unleashed Page (ATUP) – Test Cases
+## Automated Testing Unleashed Page (ATUP) – Test Cases
 
 | TC ID     | Description                                                   | Expected Result                                                  |
 |-----------|---------------------------------------------------------------|------------------------------------------------------------------|
@@ -349,7 +349,7 @@
 
 ---
 
-## 📚 Resources Page – Test Cases
+## Resources Page – Test Cases
 
 | TC ID     | Description                                                   | Expected Result                                                  |
 |-----------|---------------------------------------------------------------|------------------------------------------------------------------|
