@@ -80,7 +80,7 @@ This file includes:
 
 Automate-The-Planet-Automation/
 │
-├── tests/                            # ✅ Test scripts (named *_test.py)
+├── tests/                            # ✅ Test scripts 
 │   ├── home_test.py
 │   ├── contact_us_test.py
 │   ├── create_meeting_test.py
@@ -93,7 +93,7 @@ Automate-The-Planet-Automation/
 │   └── footer_test.py
 │  
 │
-├── pages/                            # 📄 Page Object classes (one per page)
+├── pages/                            # 📄 Page Object classes 
 │   ├── home_page.py
 │   ├── contact_us_page.py
 │   ├── create_meeting_page.py
