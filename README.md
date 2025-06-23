@@ -1,13 +1,13 @@
 
-## 🔧 Selenium Test Automation for "Automate The Planet Website ##
+## 🔧 Selenium Test Automation for "The Planet Website ##
 
 # 🌐 Project Overview
 
 This repository contains **automated UI and functional test scripts** developed using **Python, Selenium WebDriver**, and the **Page Object Model (POM)** for:
 
-🔗 [Automate The Planet](https://www.automatetheplanet.com/)
+🔗 [The Planet Website](https://www.automatetheplanet.com/)
 
-> Automate The Planet is a trusted platform in the test automation industry, offering consulting services, demos, and free resources for automation professionals. The site includes interactive UI elements, dynamic forms, and navigation flows that make it ideal for automation testing practice.
+> The Planet Website is a trusted platform in the test automation industry, offering consulting services, demos, and free resources for automation professionals. The site includes interactive UI elements, dynamic forms, and navigation flows that make it ideal for automation testing practice.
 
 ---
 
