@@ -1,4 +1,4 @@
-# ✅ Test Cases – Automate The Planet Website
+# ✅ Test Cases – The Planet Website
 
 ---
 
