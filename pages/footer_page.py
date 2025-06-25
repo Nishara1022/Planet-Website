@@ -17,6 +17,7 @@ class Home:
         
         print("---- Footer Page ----")
         # cookies accept
+        
         def cookies(self):
             cookies = self.driver.find_element(*Home.COOKIE)
             cookies.click()
