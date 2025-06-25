@@ -7,10 +7,10 @@ class Resources:
          self.driver = driver
 
 
+        # locators
         COOKIE = (By.ID, "cookie_action_close_header")
         SEARCH = (By.XPATH, "//input[@type='search']")
         SEARCH_BUTTON = (By.XPATH, "//button[@type='submit']")
-
         LEARN_MORE = (By.XPATH, "//a[@class='button push-top-20  push-right-20']")
         AVAILABLE_OPTIONS = (By.XPATH, "//label[@for='collapsible-head']")
         PURCHASE_BOOKS_DE_LINK = (By.XPATH, "//a[text()='Purchase EN Books (DE)']")
@@ -20,7 +20,6 @@ class Resources:
         CHECKBOX = (By.XPATH, "//label[@for='tcb-consent-tve-u-16390cc253e']")        
         DOWNLOAD_WHITEPAPER_BUTTON = (By.XPATH, "//a[@href='/whitepapers/how-to-test-the-test-automation-framework/'][normalize-space()='Download this papper']")        
         DOWNLOAD_CHEAT_SHEET_BUTTON = (By.XPATH, "//a[@href='/applications/most-complete-appium-java-cheat-sheet'][normalize-space()='Download cheat sheet']")
-            
         CONTENT = (By.ID, "page-content")
         CONTENT_tags_h4 = (By.TAG_NAME, "h4")
         CONTENT_tags_p = (By.TAG_NAME, "p")
