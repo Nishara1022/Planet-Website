@@ -16,6 +16,7 @@ class CreateMeetingBookingPage:
 
     
     print("---- Create your own meeting booking page ----")
+    
     # Create your own meeting booking page
     def open_page(self):
         self.driver.get(self.URL)
