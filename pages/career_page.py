@@ -21,13 +21,13 @@ class Career():
 
     print("---- Career page ----")
     
-    # title 
+    # Title 
     def title(self):
         title = self.driver.find_element(By.TAG_NAME, "h1")
         print(title.text)            
         print("")
         
-    # accept cookies
+    # Accept cookies
     def cookies(self):
         cookies = self.driver.find_element(*Career.COOKIES)
         time.sleep(10)
@@ -36,14 +36,14 @@ class Career():
         time.sleep(1)
         print("")
     
-    # click QA 
+    # Click QA Engineer 
     def qa(self):
         self.driver.find_element(*Career.QA).click()
         print("Regular Automation QA Engineer button clicked")
         time.sleep(1)
         print("")
     
-    # fill Career form
+    # Career form
     def fill_form(self, name, email, subject, phone, mesage, resume):
         print("---- Career form ----")
         name_input = self.driver.find_element(*Career.NAME)
@@ -85,11 +85,9 @@ class Career():
         time.sleep(10)
         print("Apply button clicked")
         
-
         print("Form filled")
         time.sleep(5)
         print("")
-
 
         # test "Thank you for your message. It has been sent."
         if "Thank you for your message. It has been sent." in self.driver.page_source:
