@@ -22,6 +22,7 @@ class WebAutomation:
 
         
         print("---- Web Automation page ----")
+        
         # accept cookies
         def cookie_accept(self):
             cookie = self.driver.find_element(*WebAutomation.COOKIE)
