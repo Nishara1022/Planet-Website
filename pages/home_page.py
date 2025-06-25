@@ -1,9 +1,7 @@
 from selenium.webdriver.common.by import By
 import time
-# webdriver wait
 import selenium.webdriver.support.expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
 
 class Home:   
         def __init__(self, driver):
