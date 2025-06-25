@@ -6,12 +6,12 @@ class WebAutomation:
          self.driver = driver
             
 
+        # locators 
         COOKIE = (By.ID, "cookie_action_close_header")
         JAVA_TAB = (By.XPATH, "//div[contains(text(),'Java')]")
         CSHARP_TAB = (By.XPATH, "//div[contains(text(),'C#')]")
         JAVASCRIPT_TAB = (By.XPATH, "//div[contains(text(),' Javascript')]")
         KOTLIN_TAB = (By.XPATH, "//div[contains(text(),'Kotlin')]")
-
         SENDUS_AN_EMAIL = (By.XPATH, "//h3[normalize-space()='Send Us an Email']")
         NAME_INPUT = (By.NAME, "yourname")
         EMAIL_INPUT = (By.NAME, "email")
