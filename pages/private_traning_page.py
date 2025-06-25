@@ -16,7 +16,7 @@ class PrivateTraining:
     
     print("---- Private Training page ----")
     
-    # accept cookies
+    # Cookies accept
     def cookies(self):
             cookies = self.driver.find_element(*PrivateTraining.COOKIE)
             cookies.click()
@@ -25,7 +25,7 @@ class PrivateTraining:
             print("")
 
 
-    # fundamentals
+    # Fundamentals
     def fundementals(self):   
         self.driver.find_element(*PrivateTraining.FUNDEMENTAL).click()
         self.driver.execute_script("arguments[0].click();", self.driver.find_element(*PrivateTraining.ANTON))
@@ -33,7 +33,7 @@ class PrivateTraining:
         time.sleep(2)
 
     
-    # anton
+    # Anton 
     def anton(self):
         self.driver.find_element(*PrivateTraining.ANTON).click()
         self.driver.execute_script("arguments[0].click();", self.driver.find_element(*PrivateTraining.FUNDEMENTAL))
@@ -42,7 +42,7 @@ class PrivateTraining:
         print("")
 
    
-    # content
+    # Content
     def content(self):
         print("---- Content h3 ----")
         content = self.driver.find_element(*PrivateTraining.CONTENT) 
@@ -82,7 +82,6 @@ class PrivateTraining:
         print("")
 
 
-       
     def content2(self):
         print("---- Content section 2 h3 ----")
         content = self.driver.find_element(*PrivateTraining.CONTENT2) 
