@@ -58,6 +58,7 @@ class Home:
 
         
         print("---- Home Page ----")
+        
         # accept cookies
         def cookies(self):
             cookies = self.driver.find_element(*Home.COOKIE)
