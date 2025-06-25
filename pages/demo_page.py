@@ -30,6 +30,7 @@ class DemoPage:
 
 
     print("---- Demo page ----")
+    
     # accept cookie
     def cookie_accept(self):
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.COOKIE))
