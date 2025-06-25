@@ -4,8 +4,8 @@ import time
 class WebAutomation:   
         def __init__(self, driver):
          self.driver = driver
-            
 
+        
         # locators 
         COOKIE = (By.ID, "cookie_action_close_header")
         JAVA_TAB = (By.XPATH, "//div[contains(text(),'Java')]")
