@@ -1,14 +1,12 @@
-
 from selenium.webdriver.common.by import By
 import time
-# webdriver wait
 
 class Home:   
         def __init__(self, driver):
          self.driver = driver
 
 
-        # locators 
+        # Locators 
         COOKIE =  (By.ID, "cookie_action_close_header")
         FOOTER = (By.ID, "footer")
         FOOTER_LINKS = (By.CSS_SELECTOR, "#footer a")
@@ -16,8 +14,8 @@ class Home:
 
         
         print("---- Footer Page ----")
-        # cookies accept
         
+        # Cookies Accept
         def cookies(self):
             cookies = self.driver.find_element(*Home.COOKIE)
             cookies.click()
@@ -26,7 +24,7 @@ class Home:
         print("")  
 
 
-        # footer
+        # Footer
         def footer(self):
             print("Footer")
             footer = self.driver.find_element(*Home.FOOTER)
@@ -37,7 +35,7 @@ class Home:
             print("")   
 
 
-        # footer links
+        # Footer links clicking test 
         def footer_links(self):
             print("Clicking all footer links...")
 
@@ -73,7 +71,7 @@ class Home:
         print("")    
 
        
-        # social media section
+        # Social media section
         def social_media(self):
             print("Clicking all social media links...")
             social_section = self.driver.find_element(*self.FOOTER)
