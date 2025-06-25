@@ -6,6 +6,7 @@ class Career():
     def __init__(self, driver):
         self.driver = driver
 
+    # locators 
     COOKIES = (By.ID, "cookie_action_close_header")    
     QA = (By.XPATH, "//a[@href='/careers/regular-automation-qa-engineer/']")
     NAME = (By.XPATH, "//input[@name='your-name']")
@@ -34,7 +35,6 @@ class Career():
         time.sleep(1)
         print("")
     
-
     # click QA 
     def qa(self):
         self.driver.find_element(*Career.QA).click()
@@ -42,7 +42,6 @@ class Career():
         time.sleep(1)
         print("")
     
-
     # fill Career form
     def fill_form(self, name, email, subject, phone, mesage, resume):
         print("---- Career form ----")
