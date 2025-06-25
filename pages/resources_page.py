@@ -26,6 +26,7 @@ class Resources:
         
 
         print("---- Resources page ----")
+        
         # accept cookies
         def cookies(self):
             cookies = self.driver.find_element(*Resources.COOKIE)
