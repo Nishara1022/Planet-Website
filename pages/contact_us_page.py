@@ -1,7 +1,5 @@
 from selenium.webdriver.common.by import By
 import time
-# webdriver wait
-
 
 class Home:   
         def __init__(self, driver):
