@@ -3,8 +3,6 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from selenium import webdriver
-
-
 from pages.web_automation_page import WebAutomation
 
 driver = webdriver.Firefox() 
