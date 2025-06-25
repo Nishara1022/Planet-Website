@@ -10,7 +10,7 @@ class Home:
          self.driver = driver
 
 
-        # locators
+        # Locators
         COOKIE =  (By.ID, "cookie_action_close_header")
         LOGO = (By.ID, "logo-link")
         HEADER = (By.ID,"menu")
@@ -59,7 +59,7 @@ class Home:
         
         print("---- Home Page ----")
         
-        # accept cookies
+        # Accept Cookies
         def cookies(self):
             cookies = self.driver.find_element(*Home.COOKIE)
             cookies.click()
@@ -68,7 +68,7 @@ class Home:
             print("")  
 
         
-        # click logo
+        # Logo
         def logo (self):
             logo = self.driver.find_element(*Home.LOGO)
             logo.click()
@@ -77,10 +77,9 @@ class Home:
             print("")    
 
 
-        # header section
+        # Header section
         def header(self):
             print("---- Header Links ----")
-
             header = self.driver.find_element(*Home.HEADER)
             header_links = header.find_elements(By.TAG_NAME, "a")
 
@@ -103,10 +102,9 @@ class Home:
             print("All header links tested.")
 
         
-        # contact button
+        # Contact button
         def contact (self):
             print("Contact")
-
             contact = self.driver.find_element(*Home.CONTACT)  
             contact.click()
             time.sleep(2)
@@ -122,7 +120,7 @@ class Home:
             print("")  
 
         
-        # first contact button
+        # First contact button
         def first_contact(self):
             first_contact = self.driver.find_element(*Home.FIRST_CONTACT)
             first_contact.click()
@@ -130,7 +128,7 @@ class Home:
             time.sleep(1)
                
 
-        # readfull story button
+        # Readfull story button
         def readfull_story(self):
             readfull_story = self.driver.find_element(*Home.READFULL_STORY)
             readfull_story.click()
@@ -138,7 +136,7 @@ class Home:
             time.sleep(1)
             
 
-        # download button
+        # Download button
         def download(self):
             download = self.driver.find_element(*Home.DOWNLOAD)
             download.click()
@@ -147,7 +145,7 @@ class Home:
             print("Download completed")
                       
 
-        # read full article button
+        # Read full article button
         def read_full_article(self):
             full_article = self.driver.find_element(*Home.READFULL_ARTICLE)
             full_article.click()
@@ -179,6 +177,7 @@ class Home:
             time.sleep(1)
 
 
+        # Mobile Automation button
         def mobile_automation(self):
             mobile_automation = self.driver.find_element(*Home.MOBILE_AUTOMATION)
             mobile_automation.click()
@@ -186,6 +185,7 @@ class Home:
             time.sleep(1)
 
 
+        # Private training button 
         def private_training(self):
             private_training = self.driver.find_element(*Home.PRIVATE_TRAINING)
             private_training.click()
@@ -193,8 +193,7 @@ class Home:
             time.sleep(1)
                
 
-        
-        # start the test section
+        # Start the test section
         def start_the_test_section(self):
             print("Start the test section")
             start_the_test = self.driver.find_element(*Home.START_THE_TEST)
@@ -202,28 +201,26 @@ class Home:
             print("Start the test button clicked")
             time.sleep(3)
 
-
+            # open iframe
             iframe = WebDriverWait(self.driver, 10)
             iframe = iframe.until(EC.presence_of_element_located((Home.IFRAME)))
             self.driver.switch_to.frame(iframe)
             print("Iframe opened")
             time.sleep(2)
 
-
+            # Yes button 
             YES_BUTTON = (By.XPATH, "//div[text()='Yes']")
             WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(YES_BUTTON)).click()
             print("Yes button clicked")
             time.sleep(2)
-
         
             # close iframe
             self.driver.switch_to.default_content()
             print("Iframe closed")
             time.sleep(2)
 
-            
 
-        # book a meeting section
+        # Book a meeting section
         def book_a_meeting_section(self):
             print("Book a meeting section")
             # Scroll to "Book a Meeting" section
@@ -280,7 +277,6 @@ class Home:
             print("open page ", self.driver.current_url)
 
 
-        
         # Content
         def content (self):
             print("Content")
