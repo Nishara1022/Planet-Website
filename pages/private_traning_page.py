@@ -15,6 +15,7 @@ class PrivateTraining:
     
     
     print("---- Private Training page ----")
+    
     # accept cookies
     def cookies(self):
             cookies = self.driver.find_element(*PrivateTraining.COOKIE)
