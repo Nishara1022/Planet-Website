@@ -2,7 +2,6 @@ from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-# select
 from selenium.webdriver.support.ui import Select
 
 class DemoPage:
@@ -69,7 +68,7 @@ class DemoPage:
         print("")
 
     
-    # popup
+    # Popup
     def close_iframe(self):
         try:
             wait = WebDriverWait(self.driver, 20)
