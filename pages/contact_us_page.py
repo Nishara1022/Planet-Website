@@ -7,7 +7,7 @@ class Home:
         def __init__(self, driver):
          self.driver = driver
 
-        # locators 
+        # Locators 
         COOKIE =  (By.ID, "cookie_action_close_header")
         NAME = (By.XPATH, "//input[@placeholder='Name']")
         EMAIL = (By.XPATH, "//input[@placeholder='Email']")
@@ -18,7 +18,7 @@ class Home:
         
         print("---- Contact us page ----")
         
-        # accept cookies
+        # Accept cookies
         def cookies(self):
             cookies = self.driver.find_element(*Home.COOKIE)
             cookies.click()
@@ -26,14 +26,14 @@ class Home:
             time.sleep(1)
             print("") 
 
-
+        # Title 
         def title (self):
             title = self.driver.find_element(By.TAG_NAME, "h1")
             print("title: is ", title.text)            
             print("")
 
         
-        # contact us form 
+        # Contact us form 
         def contact_us_form(self, name_input, email_input, message_input):
             print("---- Contact us form ----")
 
@@ -65,7 +65,6 @@ class Home:
             print("Email sent")
             time.sleep(10)
 
-        
             if "Thank you for your message. It has been sent." in self.driver.page_source:
                 print("Email sent successfully. Thank you for your message. It has been sent. message displayed")
             else:
