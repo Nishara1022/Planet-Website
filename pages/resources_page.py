@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 import time
-# select
 
 class Resources:   
         def __init__(self, driver):
@@ -27,7 +26,7 @@ class Resources:
 
         print("---- Resources page ----")
         
-        # accept cookies
+        # Accept cookies
         def cookies(self):
             cookies = self.driver.find_element(*Resources.COOKIE)
             cookies.click()
@@ -36,14 +35,14 @@ class Resources:
             print("")
 
 
-        # back to Resources page
+        # Back to Resources page
         def back_to_Resources_page(self):
             self.driver.get("https://www.automatetheplanet.com/resources/")
             print("")
             print("Back to Resources clicked")    
 
 
-        # search for whitepaper
+        # Search for whitepaper
         def search(self):
             print("Search section")
             search_input = self.driver.find_element(*Resources.SEARCH)
@@ -59,7 +58,7 @@ class Resources:
             print("")
 
         
-        # download  papper section
+        # Download  papper section
         def download_paper_button(self, name_input, email_input):
             download_paper_button = self.driver.find_element(*Resources.DOWNLOAD_PAPER_BUTTON)
             download_paper_button.click()
@@ -83,7 +82,6 @@ class Resources:
             print("Consent accepted")
             time.sleep(2)
 
-            # <button type="Submit" class="tve_brdr_none thrive-lead-button" data-tve-custom-colour="2471630" style="">Download Whitepaper</button>
             submit = self.driver.find_element(By.XPATH, "//button[text()='Download Whitepaper']")
             self.driver.execute_script("arguments[0].click();", submit)
             print("Whitepaper downloaded")
@@ -100,9 +98,8 @@ class Resources:
 
             self.driver.get("https://www.automatetheplanet.com/resources/")
 
-        
-        
-        # download Cheat sheet
+                
+        # Download Cheat sheet
         def download_cheat_sheet_button(self, name_input, email_input):
             download_cheat_sheet_button = self.driver.find_element(*Resources.DOWNLOAD_CHEAT_SHEET_BUTTON)
             download_cheat_sheet_button.click()
@@ -137,7 +134,7 @@ class Resources:
 
 
 
-        # click all Learn more buttons
+        # Learn more buttons
         def click_all_Learn_more(self):
             learn_more = self.driver.find_elements(By.LINK_TEXT, "Learn more")
             for button in learn_more:
@@ -149,7 +146,7 @@ class Resources:
                 print("")
 
 
-        # content    
+        # Content    
         def content(self):
             print("Content h4")
             content = self.driver.find_element(*Resources.CONTENT) 
