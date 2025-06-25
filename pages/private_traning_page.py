@@ -5,7 +5,8 @@ class PrivateTraining:
     def __init__(self, driver):
         self.driver = driver
         
-    
+
+    # locators
     COOKIE = (By.ID, "cookie_action_close_header")
     FUNDEMENTAL = (By.XPATH, "//a[@href='#floating-license']")
     ANTON = (By.XPATH, "//a[@href='#anton-angelov']")
