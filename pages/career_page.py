@@ -20,6 +20,7 @@ class Career():
 
 
     print("---- Career page ----")
+    
     # title 
     def title(self):
         title = self.driver.find_element(By.TAG_NAME, "h1")
