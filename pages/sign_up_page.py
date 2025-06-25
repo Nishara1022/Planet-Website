@@ -3,11 +3,11 @@ import time
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-
 class signup:
     def __init__(self, driver):
         self.driver = driver
 
+    # locators 
     USERNAME = (By.ID, "username")
     LOGIN_BUTTON = (By.ID, "loginBtn")    
     SIGN_UP = (By.LINK_TEXT, "sign up")
