@@ -17,6 +17,7 @@ class signup:
 
     
     print("---- Login and Sign up page ----")
+    
     # signup form
     def username(self, user_name_input, signup_email_input):
         username = self.driver.find_element(*signup.USERNAME)
