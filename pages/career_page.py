@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 import time
 
-
 class Career():
     def __init__(self, driver):
         self.driver = driver
