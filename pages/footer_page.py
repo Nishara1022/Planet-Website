@@ -8,6 +8,7 @@ class Home:
          self.driver = driver
 
 
+        # locators 
         COOKIE =  (By.ID, "cookie_action_close_header")
         FOOTER = (By.ID, "footer")
         FOOTER_LINKS = (By.CSS_SELECTOR, "#footer a")
