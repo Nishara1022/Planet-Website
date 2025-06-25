@@ -10,7 +10,8 @@ class DemoPage:
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
 
-
+    
+   # locators 
     USERNAME = (By.ID, "username")
     SIGN_UP = (By.ID, "loginBtn")
     DEMO_BUTTON = (By.XPATH, "//a[@data-test-id='demo-button']")
