@@ -10,6 +10,7 @@ class Home:
          self.driver = driver
 
 
+        # locators
         COOKIE =  (By.ID, "cookie_action_close_header")
         LOGO = (By.ID, "logo-link")
         HEADER = (By.ID,"menu")
@@ -277,8 +278,8 @@ class Home:
             print("Successfully clicked 'Book a Meeting' button")
             print("open page ", self.driver.current_url)
 
-    
 
+        
         # Content
         def content (self):
             print("Content")
