@@ -6,7 +6,7 @@ class WebAutomation:
          self.driver = driver
 
         
-        # locators 
+        # Locators 
         COOKIE = (By.ID, "cookie_action_close_header")
         JAVA_TAB = (By.XPATH, "//div[contains(text(),'Java')]")
         CSHARP_TAB = (By.XPATH, "//div[contains(text(),'C#')]")
@@ -22,8 +22,8 @@ class WebAutomation:
 
         
         print("---- Web Automation page ----")
-        
-        # accept cookies
+
+        # Cookies accept
         def cookie_accept(self):
             cookie = self.driver.find_element(*WebAutomation.COOKIE)
             cookie.click()
@@ -32,7 +32,7 @@ class WebAutomation:
             print("")
 
         
-        # tabs
+        # Tabs
         def tabs(self):
             print("---- Tabs ----")
 
@@ -53,9 +53,8 @@ class WebAutomation:
             print("Kotlin tab clicked")
             print("")
 
-
        
-        # book a meeting form
+        # Book a meeting form
         def book_a_meeting_form(self, name_input, email_input, message_input):
             print("---- Book a meeting form ----")
             book_a_meeting = self.driver.find_element(*WebAutomation.SENDUS_AN_EMAIL)
@@ -75,7 +74,6 @@ class WebAutomation:
             terms = self.driver.find_element(*WebAutomation.TERMS_LINK)
             terms.click()
             print("Terms accepted")
-
 
             send = self.driver.find_element(*WebAutomation.SEND_BUTTON)
             send.click()
