@@ -7,7 +7,7 @@ class signup:
     def __init__(self, driver):
         self.driver = driver
 
-    # locators 
+    # Locators 
     USERNAME = (By.ID, "username")
     LOGIN_BUTTON = (By.ID, "loginBtn")    
     SIGN_UP = (By.LINK_TEXT, "sign up")
@@ -18,7 +18,7 @@ class signup:
     
     print("---- Login and Sign up page ----")
     
-    # signup form
+    # Signup form 
     def username(self, user_name_input, signup_email_input):
         username = self.driver.find_element(*signup.USERNAME)
         username.send_keys(user_name_input)
@@ -37,6 +37,7 @@ class signup:
         print("")
 
 
+        # Signup form 
         print("---- Sign up form ----")
         print("Sign up page opened")
         signup_email = self.driver.find_element(*signup.SIGN_UP_EMAIL)
@@ -47,11 +48,11 @@ class signup:
         time.sleep(5)
 
 
+        # Signup button
         signup_button = self.driver.find_element(*signup.SIGN_UP_BUTTON)
         self.driver.execute_script("arguments[0].click();", signup_button)
         print("Sign up button clicked")
         time.sleep(5)
-
 
         if "Check your email" in self.driver.page_source:
             print("Sign up successful We’ve sent your verification link to you mail text present")
@@ -59,7 +60,7 @@ class signup:
             print("Sign up failed")
 
     
-    # cookies
+    # Cookies accept 
     def cookie_accept(self):
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.COOKIE))
         cookie = self.driver.find_element(*self.COOKIE)
