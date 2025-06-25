@@ -11,7 +11,7 @@ class DemoPage:
         self.wait = WebDriverWait(self.driver, 10)
 
     
-   # locators 
+   # Locators 
     USERNAME = (By.ID, "username")
     SIGN_UP = (By.ID, "loginBtn")
     DEMO_BUTTON = (By.XPATH, "//a[@data-test-id='demo-button']")
@@ -31,7 +31,7 @@ class DemoPage:
 
     print("---- Demo page ----")
     
-    # accept cookie
+    # Accept cookie
     def cookie_accept(self):
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.COOKIE))
         cookie = self.driver.find_element(*self.COOKIE)
@@ -41,7 +41,7 @@ class DemoPage:
         print("")
 
 
-    # username
+    # Username
     def username(self, username_input):
         username = self.driver.find_element(*self.USERNAME)
         username.send_keys(username_input)
@@ -50,7 +50,7 @@ class DemoPage:
         print("")
 
 
-    # sign up
+    # Sign up
     def sign_up(self):
         sign_up = self.driver.find_element(*self.SIGN_UP)
         self.driver.execute_script("arguments[0].click();", sign_up)
@@ -59,7 +59,7 @@ class DemoPage:
         print("")
 
     
-    # click demo
+    # Demo button 
     def click_demo_button(self):
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.DEMO_BUTTON))
         demo_btn = self.driver.find_element(*self.DEMO_BUTTON)
@@ -69,7 +69,7 @@ class DemoPage:
         print("")
 
     
-    # close popup
+    # popup
     def close_iframe(self):
         try:
             wait = WebDriverWait(self.driver, 20)
@@ -95,7 +95,7 @@ class DemoPage:
             print("")
 
     
-    # fill Demo form
+    # Demo form
     def fill_demo_form(self, firstname, lastname, email, phone, company, website, employees, country):
         print("---- Demo form ----")
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.FIRSTNAME_INPUT))
@@ -146,7 +146,6 @@ class DemoPage:
 
 
         get_demo = self.wait.until(EC.element_to_be_clickable(self.GET_DEMO_BUTTON))
-        # self.driver.execute_script("arguments[0].scrollIntoView(true);", get_demo)
         time.sleep(6)
         self.driver.execute_script("arguments[0].click();", get_demo)
         print("Get your demo button is clicked")
