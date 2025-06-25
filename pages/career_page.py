@@ -6,7 +6,7 @@ class Career():
     def __init__(self, driver):
         self.driver = driver
 
-    # locators 
+    # Locators 
     COOKIES = (By.ID, "cookie_action_close_header")    
     QA = (By.XPATH, "//a[@href='/careers/regular-automation-qa-engineer/']")
     NAME = (By.XPATH, "//input[@name='your-name']")
