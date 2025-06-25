@@ -7,7 +7,7 @@ class Home:
         def __init__(self, driver):
          self.driver = driver
 
-
+        # locators 
         COOKIE =  (By.ID, "cookie_action_close_header")
         NAME = (By.XPATH, "//input[@placeholder='Name']")
         EMAIL = (By.XPATH, "//input[@placeholder='Email']")
