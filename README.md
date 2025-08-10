@@ -2,7 +2,7 @@
 
 ### 🌐 Project Overview
 
-This project contains **automated UI and functional test scripts** developed using **Python, Selenium WebDriver**, and the **Page Object Model (POM)** for:
+This project contains automated test scripts written in Python using Selenium WebDriver, the Page Object Model (POM) design pattern for the demo healthcare appointment website.
 
 🔗 [The Planet Website](https://www.automatetheplanet.com/)
 
@@ -119,6 +119,7 @@ Automate-The-Planet-Automation/
    ```bash
    git clone https://github.com/your-username/ecommerce-ui-testing.git
    cd ecommerce-ui-testing
+
 
 
 
