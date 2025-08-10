@@ -61,17 +61,17 @@ This file includes:
 
 ---
 
-## 🧰 Tech Stack Used
+## 🧰 Tools & Technologies Used
 
-| Tool/Library         | Description                             |
-|----------------------|-----------------------------------------|
-|  Python 3.x         | Main programming language               |
-|  Selenium WebDriver | For browser automation                  |
-|  POM Pattern        | For structured page-level automation    |
-|  Pytest             | For test execution                      |
-|  ChromeDriver       | For Chrome browser testing              |
-|  GitHub             | Version control and project hosting     |
+    Language: Python 3.x
 
+    Automation Tool: Selenium WebDriver
+
+    Design Pattern: Page Object Model (POM)
+
+    Testing Framework: Pytest 
+
+    Browser Drivers: ChromeDriver and GeckoDriver (Firefox)
 ---
 
 ## 📁 Project Structure
@@ -119,5 +119,6 @@ Automate-The-Planet-Automation/
    ```bash
    git clone https://github.com/your-username/ecommerce-ui-testing.git
    cd ecommerce-ui-testing
+
 
 
