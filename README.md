@@ -2,11 +2,11 @@
 
 ### 🌐 Project Overview
 
-This repository contains **automated UI and functional test scripts** developed using **Python, Selenium WebDriver**, and the **Page Object Model (POM)** for:
+This project contains **automated UI and functional test scripts** developed using **Python, Selenium WebDriver**, and the **Page Object Model (POM)** for:
 
 🔗 [The Planet Website](https://www.automatetheplanet.com/)
 
-> The Planet Website is a trusted platform in the test automation industry, offering consulting services, demos, and free resources for automation professionals. The site includes interactive UI elements, dynamic forms, and navigation flows that make it ideal for automation testing practice.
+The Planet Website is a trusted platform in the test automation industry, offering consulting services, demos, and free resources for automation professionals. The site includes interactive UI elements, dynamic forms, and navigation flows that make it ideal for automation testing practice.
 
 ---
 
@@ -119,6 +119,7 @@ Automate-The-Planet-Automation/
    ```bash
    git clone https://github.com/your-username/ecommerce-ui-testing.git
    cd ecommerce-ui-testing
+
 
 
 
