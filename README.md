@@ -69,8 +69,6 @@ This file includes:
 
     Design Pattern: Page Object Model (POM)
 
-    Testing Framework: Pytest 
-
     Browser Drivers: ChromeDriver and GeckoDriver (Firefox)
 ---
 
@@ -119,6 +117,7 @@ Automate-The-Planet-Automation/
    ```bash
    git clone https://github.com/your-username/ecommerce-ui-testing.git
    cd ecommerce-ui-testing
+
 
 
 
